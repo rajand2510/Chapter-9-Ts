@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2015",              // or later (es2016, es2017, es2020)
+    "lib": ["es2015", "dom"],        // add "dom" if you use browser APIs
+    "module": "commonjs",            // or "esnext" if needed
+    "esModuleInterop": true,         // fixes lodash import
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
